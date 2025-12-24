@@ -124,3 +124,6 @@ All presets are transparent, documented, and user-editable.
 Better Robots.txt is developed and maintained by Gautier Dorval.
 
 It is part of the Pagup ecosystem, a collection of specialized WordPress tools focused on SEO governance, AI readability, and semantic stability.
+
+– Mirror repository (Codeberg): https://codeberg.org/gautierdorval/better-robots-txt
+
