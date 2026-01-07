@@ -109,7 +109,9 @@ All presets are transparent, documented, and user-editable.
 
 ## Official references
 
-– WordPress.org plugin page:  
+– Aythor: Gautier Dorval
+
+- WordPress.org plugin page:  
   https://wordpress.org/plugins/better-robots-txt/
 
 – Official website:  
