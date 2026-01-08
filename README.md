@@ -144,3 +144,15 @@ It is part of the Pagup ecosystem, a collection of specialized WordPress tools f
 
 – Mirror repository (Codeberg): https://codeberg.org/gautierdorval/better-robots-txt
 
+## Interpretive governance
+
+Better Robots.txt operates within an explicit interpretive governance framework.
+
+The framework is defined externally and is not part of the plugin logic.
+
+- Canonical doctrine: https://gautierdorval.com/doctrine/
+- Machine-readable doctrine: https://gautierdorval.com/doctrine/ssa-e-a2-dual-web.md
+
+The plugin applies technical signals aligned with this framework but does not redefine or operationalize it.
+
+
