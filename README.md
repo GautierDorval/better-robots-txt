@@ -82,20 +82,35 @@ Includes:
 – expanded bad-bot and SEO crawler blocking,
 – archive.org crawler blocking.
 
+## SSA-E + A2 + Dual Web doctrine reference
+
+Better Robots.txt supports AI crawler governance patterns that are aligned with the SSA-E + A2 + Dual Web doctrine, a neutral framework for semantic and interpretive governance in machine-read environments.
+
+The doctrine defines principles and boundaries for:
+- semantic stabilization,
+- interpretive scope control,
+- transparent, machine-readable governance signals.
+
+Canonical doctrinal reference:  
+https://github.com/GautierDorval/ssa-e-a2-doctrine
+
+Notes:
+- This reference is informational only.
+- This plugin does not define the doctrine.
+- No certification, guarantee, ranking outcome, or regulatory compliance is implied.
 
 ## AI governance principles
 
-Better Robots.txt does not claim to technically enforce crawler behavior.
+Better Robots.txt does not claim to technically enforce crawler behavior or guarantee crawler compliance.  
 It expresses explicit intent using existing, machine-readable mechanisms.
 
 The plugin distinguishes between:
-– search indexing,
-– AI-assisted user browsing,
-– AI training and dataset collection,
-– abusive automated access.
+- search indexing,
+- AI-assisted user browsing,
+- AI training and dataset collection,
+- abusive automated access.
 
 Its role is to document intent, reduce ambiguity, and support regulatory alignment.
-
 
 ## What this plugin is not
 
@@ -109,7 +124,7 @@ All presets are transparent, documented, and user-editable.
 
 ## Official references
 
-– Aythor: Gautier Dorval
+– Author: Gautier Dorval
 
 - WordPress.org plugin page:  
   https://wordpress.org/plugins/better-robots-txt/
