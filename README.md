@@ -151,8 +151,8 @@ Better Robots.txt supports AI crawler governance patterns aligned with the SSA-E
 
 This doctrine is defined externally and is not part of the plugin logic.
 
-Canonical doctrine repository:  
-https://github.com/GautierDorval/ssa-e-a2-doctrine
+Canonical doctrine :  
+https://inferenslab.org/
 
 Notes:
 - This reference is informational only.
