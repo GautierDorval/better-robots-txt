@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Better Robots.txt",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "WordPress",
+  "description": "WordPress plugin providing structured, AI-aware governance of robots.txt for search engines, AI crawlers, and LLMs.",
+  "softwareVersion": "6.9.1",
+  "author": {
+    "@type": "Person",
+    "name": "Gautier Dorval",
+    "url": "https://github.com/GautierDorval/gautierdorval-identity"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Pagup"
+  },
+  "url": "https://wordpress.org/plugins/better-robots-txt/",
+  "sameAs": [
+    "https://better-robots.com/",
+    "https://github.com/GautierDorval/better-robots-txt"
+  ]
+}

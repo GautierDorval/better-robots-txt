@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Better Robots.txt \u2014 product scope (canonical)",
+  "version": "6.9.1",
+  "inLanguage": "en",
+  "about": "Canonical scope boundaries and non-goals for the Better Robots.txt WordPress plugin.",
+  "url": "https://github.com/GautierDorval/better-robots-txt",
+  "isBasedOn": [
+    "https://wordpress.org/plugins/better-robots-txt/",
+    "https://better-robots.com/"
+  ],
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "robots.txt governance",
+      "description": "Generating and governing robots.txt rules via explicit settings (intent signaling, not enforcement)."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI training protection",
+      "description": "Blocking known AI training crawlers via robots.txt user-agent directives."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI search allowance",
+      "description": "Allowing or blocking user-facing AI search/answer engines via user-agent directives."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Content usage signals",
+      "description": "Cloudflare-compatible signals: search, ai-input, ai-train."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "llms.txt",
+      "description": "Optional virtual /llms.txt file for AI/LLM governance communication."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SSA header links",
+      "description": "Optional HTML head link relations pointing to governance surfaces."
+    }
+  ],
+  "potentialAction": {
+    "@type": "ViewAction",
+    "target": "https://github.com/GautierDorval/better-robots-txt"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "repository_role",
+      "value": "canonical-definition"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "non_guarantees",
+      "value": "No ranking/indexing/compliance guarantees; crawlers may ignore robots.txt."
+    }
+  ]
+}

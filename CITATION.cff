@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository as a reference, please cite it."
+title: "Better Robots.txt — product definition & governance"
+authors:
+  - family-names: "Dorval"
+    given-names: "Gautier"
+url: "https://github.com/GautierDorval/better-robots-txt"
+version: "6.9.1"
+date-released: "2026-02-26"
+license: "CC-BY-NC-SA-4.0"
