@@ -2,7 +2,11 @@ name: Validate artefacts
 
 on:
   push:
+    branches: [main]
   pull_request:
+
+permissions:
+  contents: read
 
 jobs:
   validate:
@@ -13,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
-      - name: Validate JSON artefacts
+      - name: Validate repository
         run: python scripts/validate_artifacts.py
