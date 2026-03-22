@@ -1,28 +1,75 @@
 #!/usr/bin/env python3
 import json
+import re
 from pathlib import Path
 
 
-def main() -> int:
-    root = Path(__file__).resolve().parents[1]
-    artefacts_dir = root / "artefacts"
+ROOT = Path(__file__).resolve().parents[1]
 
+
+def validate_json_artifacts() -> list[str]:
+    errors: list[str] = []
+    artefacts_dir = ROOT / "artefacts"
     if not artefacts_dir.exists():
-        print("No artefacts/ directory found.")
-        return 1
+        errors.append("No artefacts/ directory found.")
+        return errors
 
-    failed = False
     for p in sorted(artefacts_dir.glob("*.json*")):
         if p.suffix not in {".json", ".jsonld"}:
             continue
         try:
             json.loads(p.read_text(encoding="utf-8"))
-            print(f"OK  {p.relative_to(root)}")
+            print(f"OK  {p.relative_to(ROOT)}")
         except Exception as e:
-            print(f"ERR {p.relative_to(root)}: {e}")
-            failed = True
+            errors.append(f"JSON error: {p.relative_to(ROOT)}: {e}")
+    return errors
 
-    return 1 if failed else 0
+
+def check_markdown_fences() -> list[str]:
+    errors: list[str] = []
+    for md in ROOT.rglob("*.md"):
+        if ".git" in md.parts:
+            continue
+        text = md.read_text(encoding="utf-8", errors="replace")
+        fences = len(re.findall(r"^```", text, flags=re.MULTILINE))
+        if fences % 2 != 0:
+            errors.append(f"Unbalanced code fences: {md.relative_to(ROOT)} (count={fences})")
+    return errors
+
+
+def check_internal_links() -> list[str]:
+    errors: list[str] = []
+    link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+    for md in ROOT.rglob("*.md"):
+        if ".git" in md.parts:
+            continue
+        text = md.read_text(encoding="utf-8", errors="replace")
+        for target in link_re.findall(text):
+            if target.startswith(("http", "#", "mailto:")):
+                continue
+            t = target.split("#", 1)[0].split("?", 1)[0].strip()
+            if not t:
+                continue
+            resolved = (md.parent / t).resolve()
+            if not resolved.exists():
+                errors.append(f"Broken link: {md.relative_to(ROOT)} -> {target}")
+    return errors
+
+
+def main() -> int:
+    errors: list[str] = []
+    errors.extend(validate_json_artifacts())
+    errors.extend(check_markdown_fences())
+    errors.extend(check_internal_links())
+
+    if errors:
+        print("Validation failed:")
+        for e in errors:
+            print(f" - {e}")
+        return 1
+
+    print("All checks passed.")
+    return 0
 
 
 if __name__ == "__main__":
