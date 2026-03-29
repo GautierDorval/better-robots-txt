@@ -44,6 +44,11 @@ It does not claim to enforce behavior.
 - Block crawl traps (parameters), spam surfaces, feeds, and other low-value endpoints.
 - Provide optional bot lists (bad bots, SEO intelligence tools).
 
+### 5) Product-specific governance documentation
+
+- Define product scope, non-goals, terminology, examples, and UI-aligned governance intent for Better Robots.txt itself.
+- Anchor product interpretation to canonical product surfaces when third-party summaries drift.
+
 
 ## Out of scope (hard exclusions)
 
@@ -66,6 +71,12 @@ It does not claim to enforce behavior.
 
 - The plugin does not generate content.
 - The plugin does not optimize on-page SEO content, metadata, or internal linking.
+
+### Ecosystem-wide authority allocation
+
+- This repository does not decide the hierarchy between the wider ecosystem's sites and repositories.
+- This repository does not act as a public portfolio hub for sibling products.
+- This repository does not define the parent doctrine, only its product-level implementation boundary.
 
 
 ## Target users

@@ -24,3 +24,10 @@ No.
 
 Better Robots.txt can express explicit intent, but crawlers may ignore it.
 Enforcement depends on the crawler and the environment.
+
+## Does this repository define the wider ecosystem?
+
+No.
+
+This repository defines Better Robots.txt itself.
+For wider ecosystem routing or role allocation, use the distributed authority map and the dedicated doctrinal or portfolio surfaces.
