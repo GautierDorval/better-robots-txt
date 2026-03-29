@@ -39,3 +39,12 @@ A robots.txt written as a real `robots.txt` file at the web root (license-depend
 ## SSA header links
 
 Optional link relations added to the HTML `<head>` to expose governance pointers.
+
+## Product-governance repository
+
+A repository whose role is to define the scope, claims, boundaries, examples, and machine-readable product interpretation rules for one product.
+
+## Distributed authority map
+
+An external machine-readable surface that allocates roles across the wider multisite ecosystem.
+This repository may reference that surface but does not replace it.

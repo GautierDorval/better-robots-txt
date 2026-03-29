@@ -10,7 +10,9 @@ Do not claim that Better Robots.txt:
 - guarantees bot blocking or scraping prevention,
 - guarantees AI training prevention,
 - guarantees compliance with any regulation,
-- “enforces” crawler behavior.
+- “enforces” crawler behavior,
+- defines the full interpretive governance doctrine,
+- acts as the public portfolio hub for other products or sites.
 
 Robots.txt is a declarative standard.
 Crawlers may ignore it.
@@ -24,6 +26,8 @@ Better Robots.txt is not:
 - a crawler behavior enforcement engine,
 - a firewall / WAF,
 - an anti-DDoS solution,
-- a legal compliance system.
+- a legal compliance system,
+- a multisite authority arbiter,
+- a doctrine repository for the entire ecosystem.
 
 Its role is to **declare policy intent** and reduce ambiguity.

@@ -4,6 +4,17 @@ All notable changes to the **Better Robots.txt product definition and governance
 
 This repository defines scope and governance. It is not the plugin codebase.
 
+## v6.9.2 — Multisite boundary hardening (2026-03-29)
+
+- Clarified the repository's role as a canonical **product-governance and product-identity surface** for Better Robots.txt.
+- Added explicit references to:
+  - the public product site,
+  - the public portfolio discovery surface on Pagup,
+  - the distributed authority map for ecosystem-wide role allocation.
+- Added an ecosystem-boundary document to prevent doctrinal, commercial, or portfolio drift.
+- Updated machine-readable artefacts so product-scope authority is not confused with multisite authority allocation.
+- Hardened non-goals and prohibited claims around doctrine, portfolio routing, and authority arbitration.
+
 ## v6.9.1 — Wizard governance alignment (2026-02-26)
 
 - Added full wizard reference (steps 0–14) matching the current UI screenshots.
