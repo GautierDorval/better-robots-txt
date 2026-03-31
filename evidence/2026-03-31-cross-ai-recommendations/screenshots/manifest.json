@@ -60,6 +60,13 @@
       "surface": "Perplexity",
       "source_file": "Perplexity.jpg",
       "output_file": "screenshots/perplexity.webp"
+    },
+    {
+      "id": "qwen",
+      "surface": "Qwen",
+      "evidence_type": "manual_observation",
+      "source_file": null,
+      "output_file": null
     }
   ]
 }
