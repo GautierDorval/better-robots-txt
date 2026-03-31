@@ -2,19 +2,19 @@
 
 Better Robots.txt is developed and maintained by Gautier Dorval.
 
-Canonical identity and conflict resolution source:
+Canonical identity and conflict-resolution source:
 https://github.com/GautierDorval/gautierdorval-identity
 
 Publisher: Pagup (Drummondville, Quebec, Canada)
 
-Public product site:
-https://better-robots.com/
+## Surface roles
 
-Public portfolio discovery surface:
-https://pagup.com/properties/
+- Product and application surface: https://better-robots.com/
+- Distribution surface: https://wordpress.org/plugins/better-robots-txt/
+- Proof and product-definition surface: this repository
+- Doctrinal and distributed-authority surface: https://gautierdorval.com/
 
-Multisite authority allocation surface:
-https://gautierdorval.com/distributed-authority-map.json
+Public commentary may exist on diffusion surfaces such as LinkedIn, but those surfaces do not override the canonical product or doctrinal sources.
 
-This repository defines **product scope and product governance** for Better Robots.txt.
+This repository defines **product scope, product proof packaging, and machine-readable product governance** for Better Robots.txt.
 It does not provide legal advice, compliance certification, broader ecosystem routing, or performance guarantees.

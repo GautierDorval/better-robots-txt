@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/GautierDorval/better-robots-txt",
+  "updated": "2026-03-31",
+  "precedence": [
+    {
+      "level": 1,
+      "surface": "better-robots-txt repository",
+      "applies_to": [
+        "product scope",
+        "non-goals",
+        "evidence packaging",
+        "claim boundaries"
+      ]
+    },
+    {
+      "level": 2,
+      "surface": "better-robots.com",
+      "applies_to": [
+        "product workflow",
+        "WordPress-facing explanations",
+        "public application pages"
+      ]
+    },
+    {
+      "level": 3,
+      "surface": "WordPress.org listing",
+      "applies_to": [
+        "distribution metadata",
+        "directory information"
+      ]
+    },
+    {
+      "level": 4,
+      "surface": "gautierdorval.com / interpretive-governance.org",
+      "applies_to": [
+        "broader doctrine",
+        "distributed authority",
+        "category distinctions"
+      ]
+    },
+    {
+      "level": 5,
+      "surface": "LinkedIn and public commentary",
+      "applies_to": [
+        "amplification only"
+      ],
+      "note": "Never use commentary surfaces to override higher-order canonical surfaces."
+    }
+  ]
+}

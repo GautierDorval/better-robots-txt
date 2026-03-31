@@ -25,3 +25,10 @@ The wizard flow is defined in `steps/`:
 - 14: Review & Save
 
 Screenshots are stored in `../assets/screenshots/`.
+
+## Related references
+
+- [Product scope](../scope.md)
+- [Non-goals](../non-goals.md)
+- [Surface map](../SURFACE_MAP.md)
+- [Product site](https://better-robots.com/)

@@ -1,0 +1,74 @@
+{
+  "repository": "https://github.com/GautierDorval/better-robots-txt",
+  "updated": "2026-03-31",
+  "surfaces": [
+    {
+      "name": "better-robots.com",
+      "url": "https://better-robots.com/",
+      "role": "product_application",
+      "canonical_for": [
+        "product workflow",
+        "WordPress use cases",
+        "public machine routing"
+      ],
+      "not_for": [
+        "proof bundles",
+        "doctrine arbitration"
+      ]
+    },
+    {
+      "name": "WordPress.org",
+      "url": "https://wordpress.org/plugins/better-robots-txt/",
+      "role": "distribution",
+      "canonical_for": [
+        "plugin listing",
+        "directory metadata",
+        "installation"
+      ],
+      "not_for": [
+        "proof bundles",
+        "doctrinal distinctions"
+      ]
+    },
+    {
+      "name": "better-robots-txt repo",
+      "url": "https://github.com/GautierDorval/better-robots-txt",
+      "role": "proof_definition",
+      "canonical_for": [
+        "scope",
+        "non-goals",
+        "artefacts",
+        "evidence bundles"
+      ],
+      "not_for": [
+        "plugin codebase",
+        "portfolio discovery"
+      ]
+    },
+    {
+      "name": "gautierdorval.com",
+      "url": "https://gautierdorval.com/",
+      "role": "doctrine_distributed_authority",
+      "canonical_for": [
+        "interpretive distinctions",
+        "distributed authority",
+        "category formation"
+      ],
+      "not_for": [
+        "plugin installation"
+      ]
+    },
+    {
+      "name": "LinkedIn and commentary surfaces",
+      "role": "diffusion_only",
+      "canonical_for": [
+        "amplification",
+        "public summaries"
+      ],
+      "not_for": [
+        "product arbitration",
+        "doctrine arbitration"
+      ]
+    }
+  ]
+}

@@ -4,17 +4,21 @@
   "name": "Better Robots.txt — product scope (canonical)",
   "version": "6.9.2",
   "inLanguage": "en",
-  "about": "Canonical scope boundaries, role boundaries, and non-goals for the Better Robots.txt WordPress plugin.",
+  "about": "Canonical scope boundaries, role boundaries, non-goals, and answer-surface claim limits for the Better Robots.txt WordPress plugin.",
   "url": "https://github.com/GautierDorval/better-robots-txt",
   "isBasedOn": [
     "https://wordpress.org/plugins/better-robots-txt/",
     "https://better-robots.com/"
   ],
+  "subjectOf": [
+    "https://github.com/GautierDorval/better-robots-txt/blob/main/SURFACE_MAP.md",
+    "https://github.com/GautierDorval/better-robots-txt/blob/main/evidence/2026-03-31-cross-ai-recommendations/README.md"
+  ],
   "hasDefinedTerm": [
     {
       "@type": "DefinedTerm",
       "name": "robots.txt governance",
-      "description": "Generating and governing robots.txt rules via explicit settings (intent signaling, not enforcement)."
+      "description": "Generating and governing robots.txt rules via explicit settings and reviewable intent signaling."
     },
     {
       "@type": "DefinedTerm",
@@ -24,7 +28,7 @@
     {
       "@type": "DefinedTerm",
       "name": "AI search allowance",
-      "description": "Allowing or blocking user-facing AI search/answer engines via user-agent directives."
+      "description": "Allowing or blocking user-facing AI search and answer engines via user-agent directives."
     },
     {
       "@type": "DefinedTerm",
@@ -38,39 +42,45 @@
     },
     {
       "@type": "DefinedTerm",
-      "name": "SSA header links",
-      "description": "Optional HTML head link relations pointing to governance surfaces."
+      "name": "product-layer query",
+      "description": "A query framed as a concrete WordPress solution problem."
     },
     {
       "@type": "DefinedTerm",
-      "name": "product-governance repository",
-      "description": "Canonical repository used to define Better Robots.txt product scope, boundaries, claims, and machine-readable product interpretation rules."
+      "name": "doctrine-layer query",
+      "description": "A query framed as a conceptual or policy problem that may not trigger a plugin answer."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "proof surface",
+      "description": "A surface used to package scope boundaries, non-goals, evidence bundles, and claim limits."
     }
   ],
-  "potentialAction": {
-    "@type": "ViewAction",
-    "target": "https://github.com/GautierDorval/better-robots-txt"
-  },
   "additionalProperty": [
     {
       "@type": "PropertyValue",
       "name": "repository_role",
-      "value": "canonical-product-governance"
+      "value": "canonical-product-proof-and-governance"
     },
     {
       "@type": "PropertyValue",
-      "name": "portfolio_discovery_surface",
-      "value": "https://pagup.com/properties/"
+      "name": "distribution_surface",
+      "value": "https://wordpress.org/plugins/better-robots-txt/"
     },
     {
       "@type": "PropertyValue",
-      "name": "multisite_authority_surface",
-      "value": "https://gautierdorval.com/distributed-authority-map.json"
+      "name": "product_surface",
+      "value": "https://better-robots.com/"
     },
     {
       "@type": "PropertyValue",
-      "name": "non_guarantees",
-      "value": "No ranking, indexing, compliance, or crawler-obedience guarantees; no ecosystem-wide authority arbitration."
+      "name": "doctrinal_surface",
+      "value": "https://gautierdorval.com/"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "claim_limit",
+      "value": "Observed strength on direct and operational WordPress queries does not imply universal dominance across doctrine-layer questions."
     }
   ]
 }

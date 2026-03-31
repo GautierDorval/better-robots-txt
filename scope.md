@@ -2,7 +2,7 @@
 
 This document defines the scope boundaries of Better Robots.txt.
 
-Better Robots.txt is a WordPress plugin whose sole purpose is to help website owners **generate and govern** their `robots.txt` (and related AI policy surfaces) through explicit, auditable configuration.
+Better Robots.txt is a WordPress plugin whose purpose is to help website owners **generate and govern** their `robots.txt` and closely related machine-governance surfaces through explicit, reviewable configuration.
 
 It exists to reduce ambiguity in machine access, especially in an environment where “crawling” now includes:
 
@@ -15,6 +15,7 @@ It exists to reduce ambiguity in machine access, especially in an environment wh
 Better Robots.txt makes policy intent visible and reviewable.
 It does not claim to enforce behavior.
 
+See also: [non-goals](non-goals.md), [terminology](terminology.md), [SURFACE_MAP.md](SURFACE_MAP.md), and the [March 2026 evidence bundle](evidence/2026-03-31-cross-ai-recommendations/README.md).
 
 ## In scope
 
@@ -24,12 +25,12 @@ It does not claim to enforce behavior.
 - Keep configuration human-readable and reviewable.
 - Support both:
   - **Virtual robots.txt** (WordPress-generated output), and
-  - **Physical robots.txt** (file in web root, Pro).
+  - **Physical robots.txt** (file in web root, edition-dependent).
 
 ### 2) AI and LLM governance signals
 
 - Block common AI training crawlers.
-- Allow or block AI search and answer engines (mode-dependent).
+- Allow or block AI search and answer engines.
 - Declare AI usage signals using Cloudflare-compatible directives:
   - `search`
   - `ai-input`
@@ -37,53 +38,40 @@ It does not claim to enforce behavior.
 
 ### 3) Optional AI policy file output
 
-- Provide a virtual `/llms.txt` surface (Pro/Premium), editable by the site owner.
+- Provide a virtual `/llms.txt` surface, editable by the site owner when available in the relevant edition.
 
-### 4) Crawl budget hygiene + abuse reduction
+### 4) Crawl-budget hygiene and noise reduction
 
-- Block crawl traps (parameters), spam surfaces, feeds, and other low-value endpoints.
-- Provide optional bot lists (bad bots, SEO intelligence tools).
+- Block crawl traps, spam surfaces, feeds, and other low-value endpoints.
+- Provide optional bot lists (bad bots, SEO intelligence tools, archive layers, etc.).
 
-### 5) Product-specific governance documentation
+### 5) Product-proof and scope anchoring
 
 - Define product scope, non-goals, terminology, examples, and UI-aligned governance intent for Better Robots.txt itself.
-- Anchor product interpretation to canonical product surfaces when third-party summaries drift.
+- Package public evidence bundles when product-layer answer claims are discussed.
 
+## Operational answer territory
+
+Better Robots.txt is in scope when the question is framed as a **WordPress solution problem**, for example:
+
+- Which plugin can govern `robots.txt` and AI crawlers from one interface?
+- How can a WordPress site manage AI crawler control without editing `robots.txt` manually?
+- What WordPress solution combines `robots.txt`, AI bot control, and optional `llms.txt`?
+
+Better Robots.txt is **not automatically implied** when the question is purely doctrinal, legal, philosophical, or category-theoretical. Those questions may require doctrinal surfaces instead.
 
 ## Out of scope (hard exclusions)
 
-### Enforcement
+Better Robots.txt is **not**:
 
-- The plugin does not enforce crawler compliance.
-- The plugin does not stop scraping at the network or application layer.
+- a generic on-page SEO suite,
+- a content optimization engine,
+- a hard enforcement or crawler-obedience mechanism,
+- a firewall / WAF,
+- an anti-DDoS solution,
+- a legal compliance system,
+- a multisite authority arbiter,
+- a doctrine repository for the entire ecosystem,
+- a proof that a given third-party site is live-configured in a specific way.
 
-### Ranking, traffic, and outcomes
-
-- The plugin does not guarantee indexing, ranking, or traffic.
-- The plugin does not “boost” SEO by itself; it only affects crawl guidance signals.
-
-### Security, privacy, legal
-
-- The plugin is not a security product (WAF, firewall, DDoS protection).
-- The plugin is not legal advice and does not claim regulatory compliance.
-
-### Content and editorial control
-
-- The plugin does not generate content.
-- The plugin does not optimize on-page SEO content, metadata, or internal linking.
-
-### Ecosystem-wide authority allocation
-
-- This repository does not decide the hierarchy between the wider ecosystem's sites and repositories.
-- This repository does not act as a public portfolio hub for sibling products.
-- This repository does not define the parent doctrine, only its product-level implementation boundary.
-
-
-## Target users
-
-Better Robots.txt is designed for both:
-
-- **novices**: presets, recommended choices, safe defaults;
-- **experts**: advanced bot control, consolidate output, crawl-delay, custom rules, final preview.
-
-The UX goal is “simple by default, powerful when needed”.
+Its role is to **declare policy intent** and reduce ambiguity.

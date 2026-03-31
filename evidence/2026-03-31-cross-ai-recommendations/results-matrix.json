@@ -1,0 +1,195 @@
+{
+  "bundle_id": "2026-03-31-cross-ai-recommendations",
+  "date": "2026-03-31",
+  "claim_boundary": "Strong on direct and operational WordPress queries; not a universal claim across doctrine-layer questions.",
+  "direct_query": {
+    "id": "DQ1",
+    "query": "Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?",
+    "evidence_type": "screenshot",
+    "surfaces": [
+      {
+        "surface": "Google AI Mode",
+        "family": "Google",
+        "rank": "first",
+        "screenshot": "screenshots/google-ai-mode.webp"
+      },
+      {
+        "surface": "Google AI Overviews",
+        "family": "Google",
+        "rank": "first",
+        "screenshot": "screenshots/google-ai-overviews.webp"
+      },
+      {
+        "surface": "ChatGPT",
+        "family": "OpenAI",
+        "rank": "first",
+        "screenshot": "screenshots/chatgpt.webp"
+      },
+      {
+        "surface": "Copilot",
+        "family": "Microsoft",
+        "rank": "first",
+        "screenshot": "screenshots/copilot.webp"
+      },
+      {
+        "surface": "DeepSeek",
+        "family": "DeepSeek",
+        "rank": "first",
+        "screenshot": "screenshots/deepseek.webp"
+      },
+      {
+        "surface": "Gemini",
+        "family": "Google",
+        "rank": "first",
+        "screenshot": "screenshots/gemini.webp"
+      },
+      {
+        "surface": "Grok",
+        "family": "xAI",
+        "rank": "first",
+        "screenshot": "screenshots/grok.webp"
+      },
+      {
+        "surface": "Kimi",
+        "family": "Moonshot AI",
+        "rank": "first",
+        "screenshot": "screenshots/kimi.webp"
+      },
+      {
+        "surface": "Mistral",
+        "family": "Mistral AI",
+        "rank": "first",
+        "screenshot": "screenshots/mistral.webp"
+      },
+      {
+        "surface": "Perplexity",
+        "family": "Perplexity",
+        "rank": "first",
+        "screenshot": "screenshots/perplexity.webp"
+      }
+    ]
+  },
+  "expanded_queries": [
+    {
+      "id": "Q1",
+      "query": "How can I manage AI crawlers, search engine bots, and llms.txt on a WordPress site without editing robots.txt manually?",
+      "evidence_type": "manual_observation",
+      "mentions": [
+        {
+          "surface": "Kimi",
+          "rank": "first"
+        },
+        {
+          "surface": "Google AI Mode",
+          "rank": "first"
+        }
+      ],
+      "summary": "Selective appearance on operational WordPress phrasing."
+    },
+    {
+      "id": "Q2",
+      "query": "What is the best way to control GPTBot, ClaudeBot, Google-Extended, and other AI bots in WordPress?",
+      "evidence_type": "manual_observation",
+      "mentions": [
+        {
+          "surface": "DeepSeek",
+          "rank": "first"
+        },
+        {
+          "surface": "Google AI Mode",
+          "rank": "first"
+        }
+      ],
+      "summary": "Selective appearance on named-bot control phrasing."
+    },
+    {
+      "id": "Q3",
+      "query": "How do I keep AI discoverability and AI training permissions separate on WordPress?",
+      "evidence_type": "manual_observation",
+      "mentions": [],
+      "summary": "No Better Robots.txt mention reported; doctrine-layer phrasing remained tool-sparse."
+    },
+    {
+      "id": "Q4",
+      "query": "How do I add llms.txt to WordPress and keep it aligned with robots.txt?",
+      "evidence_type": "manual_observation",
+      "mentions": [],
+      "summary": "No Better Robots.txt mention reported."
+    },
+    {
+      "id": "Q5",
+      "query": "What WordPress solution combines robots.txt governance, AI bot control, and llms.txt?",
+      "evidence_type": "manual_observation",
+      "mentions": [
+        {
+          "surface": "ChatGPT",
+          "rank": "first"
+        },
+        {
+          "surface": "Gemini",
+          "rank": "first"
+        },
+        {
+          "surface": "Google AI Mode",
+          "rank": "first"
+        },
+        {
+          "surface": "Copilot",
+          "rank": "second"
+        },
+        {
+          "surface": "Mistral",
+          "rank": "second"
+        },
+        {
+          "surface": "Qwen",
+          "rank": "second"
+        }
+      ],
+      "summary": "The strongest expanded-battery phrasing for combined operational scope."
+    },
+    {
+      "id": "Q6",
+      "query": "Do I need more than Yoast or Rank Math to manage AI crawlers and llms.txt on WordPress?",
+      "evidence_type": "manual_observation",
+      "mentions": [
+        {
+          "surface": "Grok",
+          "rank": "mentioned"
+        }
+      ],
+      "summary": "Sparse but non-zero appearance on comparative suite phrasing."
+    },
+    {
+      "id": "Q7",
+      "query": "What is the safest way to manage robots.txt for search engines and AI bots on WordPress?",
+      "evidence_type": "manual_observation",
+      "mentions": [
+        {
+          "surface": "Grok",
+          "rank": "listed"
+        },
+        {
+          "surface": "Google AI Mode",
+          "rank": "listed"
+        },
+        {
+          "surface": "Copilot",
+          "rank": "first_only"
+        },
+        {
+          "surface": "DeepSeek",
+          "rank": "first_only"
+        }
+      ],
+      "summary": "Operational safety phrasing produced selective but meaningful plugin surfacing."
+    },
+    {
+      "id": "Q8",
+      "query": "I want AI tools to read my content, but I do not want unrestricted training access. How should I configure WordPress?",
+      "evidence_type": "manual_observation",
+      "mentions": [],
+      "summary": "No Better Robots.txt mention reported; still treated as a broader permissions/policy question."
+    }
+  ]
+}
