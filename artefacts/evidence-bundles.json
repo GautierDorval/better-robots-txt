@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/GautierDorval/better-robots-txt",
+  "updated": "2026-03-31",
+  "bundles": [
+    {
+      "id": "2026-03-31-cross-ai-recommendations",
+      "path": "evidence/2026-03-31-cross-ai-recommendations/",
+      "status": "public",
+      "claim_boundary": "Strong on direct and operational WordPress queries; not a universal doctrine-layer claim.",
+      "contains": [
+        "protocol",
+        "queries",
+        "results-matrix.csv",
+        "results-matrix.json",
+        "limitations",
+        "interpretation",
+        "screenshots manifest"
+      ]
+    }
+  ]
+}

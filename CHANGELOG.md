@@ -2,7 +2,17 @@
 
 All notable changes to the **Better Robots.txt product definition and governance repository** will be documented here.
 
-This repository defines scope and governance. It is not the plugin codebase.
+This repository defines scope, proof packaging, and governance. It is not the plugin codebase.
+
+## 2026-03-31 — Evidence and surface-role consolidation
+
+- Added a dedicated [surface map](SURFACE_MAP.md) to separate product, distribution, proof, doctrine, and diffusion roles.
+- Added a public [evidence index](evidence/README.md) and the bundle [`2026-03-31-cross-ai-recommendations`](evidence/2026-03-31-cross-ai-recommendations/README.md).
+- Packaged direct-query screenshots as WebP evidence assets.
+- Documented the distinction between **product-layer** and **doctrine-layer** queries.
+- Hardened repository wording so March 2026 observations support a narrow, defensible claim rather than a universal one.
+- Added machine-readable artefacts for surface mapping, source precedence, and evidence-bundle discovery.
+- Updated deployment and contribution guidance to cover evidence bundles and manual observation logs.
 
 ## v6.9.2 — Multisite boundary hardening (2026-03-29)
 

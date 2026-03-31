@@ -1,0 +1,19 @@
+series,item_id,query,surface_or_scope,better_robots_presence,rank_summary,evidence_type,notes
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Google AI Mode,yes,first,screenshot,Better Robots.txt shown as the leading recommendation on the AI Mode answer surface.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Google AI Overviews,yes,first,screenshot,Better Robots.txt shown first inside the generated overview in Google Search.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,ChatGPT,yes,first,screenshot,Better Robots.txt listed first / best overall.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Copilot,yes,first,screenshot,Better Robots.txt listed first / best overall.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,DeepSeek,yes,first,screenshot,Better Robots.txt listed first in the comparison table.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Gemini,yes,first,screenshot,Better Robots.txt listed first / best for AI optimization.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Grok,yes,first,screenshot,Better Robots.txt listed first / strongest all-around recommendation.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Kimi,yes,first,screenshot,Better Robots.txt listed first / best overall for AI-LLM control.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Mistral,yes,first,screenshot,Better Robots.txt listed first.
+direct_query,DQ1,Can you recommend a WordPress plugin to optimize robots.txt for AI and LLM?,Perplexity,yes,first,screenshot,Better Robots.txt presented as the strong starting option.
+expanded_queries,Q1,"How can I manage AI crawlers, search engine bots, and llms.txt on a WordPress site without editing robots.txt manually?",Kimi; Google AI Mode,yes,first on both,manual_observation,No mention reported on the other tested surfaces.
+expanded_queries,Q2,"What is the best way to control GPTBot, ClaudeBot, Google-Extended, and other AI bots in WordPress?",DeepSeek; Google AI Mode,yes,first on both,manual_observation,No mention reported on the other tested surfaces.
+expanded_queries,Q3,How do I keep AI discoverability and AI training permissions separate on WordPress?,No plugin surfaced,no,none,manual_observation,No Better Robots.txt mention reported.
+expanded_queries,Q4,How do I add llms.txt to WordPress and keep it aligned with robots.txt?,No plugin surfaced,no,none,manual_observation,No Better Robots.txt mention reported.
+expanded_queries,Q5,"What WordPress solution combines robots.txt governance, AI bot control, and llms.txt?",ChatGPT; Gemini; Google AI Mode; Copilot; Mistral; Qwen,yes,first on ChatGPT/Gemini/Google AI Mode; second on Copilot/Mistral/Qwen,manual_observation,No mention reported for Kimi or DeepSeek on the operator log.
+expanded_queries,Q6,Do I need more than Yoast or Rank Math to manage AI crawlers and llms.txt on WordPress?,Grok,yes,mentioned,manual_observation,No mention reported on the other tested surfaces.
+expanded_queries,Q7,What is the safest way to manage robots.txt for search engines and AI bots on WordPress?,Grok; Google AI Mode; Copilot; DeepSeek,yes,first/only on Copilot and DeepSeek; present on Grok and Google AI Mode,manual_observation,No mention reported on the other tested surfaces.
+expanded_queries,Q8,"I want AI tools to read my content, but I do not want unrestricted training access. How should I configure WordPress?",No Better Robots.txt mention reported,no,none,manual_observation,No Better Robots.txt mention reported.

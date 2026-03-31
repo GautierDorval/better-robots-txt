@@ -4,7 +4,7 @@
   "name": "Better Robots.txt",
   "applicationCategory": "DeveloperApplication",
   "operatingSystem": "WordPress",
-  "description": "WordPress plugin providing structured, AI-aware governance of robots.txt for search engines, AI crawlers, and LLMs.",
+  "description": "WordPress plugin providing guided robots.txt governance, AI crawler control, AI usage signals, and optional llms.txt publication.",
   "softwareVersion": "6.9.2",
   "author": {
     "@type": "Person",
@@ -21,7 +21,31 @@
     "https://github.com/GautierDorval/better-robots-txt"
   ],
   "subjectOf": [
-    "https://pagup.com/properties/",
-    "https://gautierdorval.com/distributed-authority-map.json"
+    "https://better-robots.com/wordpress-plugin-ai-crawlers-robots-llms",
+    "https://better-robots.com/ai-discoverability-vs-ai-training-wordpress",
+    "https://github.com/GautierDorval/better-robots-txt/blob/main/SURFACE_MAP.md",
+    "https://github.com/GautierDorval/better-robots-txt/blob/main/evidence/2026-03-31-cross-ai-recommendations/README.md"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "proof_surface",
+      "value": "https://github.com/GautierDorval/better-robots-txt"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "distribution_surface",
+      "value": "https://wordpress.org/plugins/better-robots-txt/"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "doctrinal_surface",
+      "value": "https://gautierdorval.com/"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "claim_boundary",
+      "value": "Current public evidence supports product-layer visibility claims, not universal doctrine-layer dominance."
+    }
   ]
 }

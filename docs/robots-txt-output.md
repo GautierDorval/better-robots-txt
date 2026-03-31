@@ -33,3 +33,9 @@ The Advanced Settings screen provides a crawl-delay control (seconds).
 
 - `0` = no crawl-delay directive.
 - Values such as 5–10 may reduce server load on high-traffic sites.
+
+## See also
+
+- [Wizard reference](../wizard/README.md)
+- [Product page on better-robots.com](https://better-robots.com/wordpress-plugin-ai-crawlers-robots-llms)
+- [March 2026 evidence bundle](../evidence/2026-03-31-cross-ai-recommendations/README.md)

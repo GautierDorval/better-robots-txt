@@ -1,33 +1,43 @@
-# Non-goals and prohibited claims
+# Non-goals
 
-Better Robots.txt must not be described as providing outcomes it cannot guarantee.
+This document states what Better Robots.txt and this repository intentionally do **not** try to do.
 
-## Prohibited claims
+See also: [scope](scope.md), [terminology](terminology.md), [SURFACE_MAP.md](SURFACE_MAP.md), and [limitations.md](evidence/2026-03-31-cross-ai-recommendations/limitations.md).
 
-Do not claim that Better Robots.txt:
+## Product non-goals
 
-- guarantees Google indexing or ranking improvements,
-- guarantees bot blocking or scraping prevention,
-- guarantees AI training prevention,
-- guarantees compliance with any regulation,
-- “enforces” crawler behavior,
-- defines the full interpretive governance doctrine,
-- acts as the public portfolio hub for other products or sites.
+Better Robots.txt is **not** trying to become:
 
-Robots.txt is a declarative standard.
-Crawlers may ignore it.
+- a full SEO platform,
+- a content optimizer,
+- a ranking guarantee engine,
+- a compliance certificate,
+- a litigation or legal interpretation engine,
+- a universal “AI governance” answer for every possible question,
+- an anti-scraping hard blocker,
+- a replacement for server-side security controls.
 
-## Non-goals
+## Repository non-goals
 
-Better Robots.txt is not:
+This repository is **not** trying to become:
 
-- an SEO content suite,
-- an on-page optimization tool,
-- a crawler behavior enforcement engine,
-- a firewall / WAF,
-- an anti-DDoS solution,
-- a legal compliance system,
-- a multisite authority arbiter,
-- a doctrine repository for the entire ecosystem.
+- the plugin codebase,
+- the public marketing site,
+- the WordPress.org listing,
+- the global doctrinal surface,
+- the only source for all category-level governance questions,
+- a social commentary hub,
+- a universal benchmark claiming Better Robots.txt should appear on every abstract query.
 
-Its role is to **declare policy intent** and reduce ambiguity.
+## Evidence non-goals
+
+The evidence bundled here is **not** intended to prove:
+
+- independent causal certainty,
+- statistical universality,
+- universal market dominance,
+- future permanence of any answer-surface position,
+- live deployment state across third-party sites,
+- equivalence between recommendation and installs, usage, or compliance.
+
+The evidence is used to support **narrower and more defensible claims** about direct and operational WordPress-oriented queries.

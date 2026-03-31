@@ -1,0 +1,65 @@
+{
+  "bundle": "2026-03-31-cross-ai-recommendations",
+  "items": [
+    {
+      "id": "google-ai-mode",
+      "surface": "Google AI Mode",
+      "source_file": "AI MODE - Google.jpg",
+      "output_file": "screenshots/google-ai-mode.webp"
+    },
+    {
+      "id": "google-ai-overviews",
+      "surface": "Google AI Overviews",
+      "source_file": "AI OverViews - Google.jpg",
+      "output_file": "screenshots/google-ai-overviews.webp"
+    },
+    {
+      "id": "chatgpt",
+      "surface": "Chatgpt",
+      "source_file": "ChatGPT.jpg",
+      "output_file": "screenshots/chatgpt.webp"
+    },
+    {
+      "id": "copilot",
+      "surface": "Copilot",
+      "source_file": "Copilot.jpg",
+      "output_file": "screenshots/copilot.webp"
+    },
+    {
+      "id": "deepseek",
+      "surface": "Deepseek",
+      "source_file": "DeepSeek.jpg",
+      "output_file": "screenshots/deepseek.webp"
+    },
+    {
+      "id": "gemini",
+      "surface": "Gemini",
+      "source_file": "Gemini.jpg",
+      "output_file": "screenshots/gemini.webp"
+    },
+    {
+      "id": "grok",
+      "surface": "Grok",
+      "source_file": "Grok.jpg",
+      "output_file": "screenshots/grok.webp"
+    },
+    {
+      "id": "kimi",
+      "surface": "Kimi",
+      "source_file": "Kimi K.jpg",
+      "output_file": "screenshots/kimi.webp"
+    },
+    {
+      "id": "mistral",
+      "surface": "Mistral",
+      "source_file": "Mistral.jpg",
+      "output_file": "screenshots/mistral.webp"
+    },
+    {
+      "id": "perplexity",
+      "surface": "Perplexity",
+      "source_file": "Perplexity.jpg",
+      "output_file": "screenshots/perplexity.webp"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ When enabled, Better Robots.txt adds optional link relations in the HTML `<head>
 
 ## Purpose
 
-This feature is intended to expose machine-first governance pointers in a standardized location (the HTML header), so that:
+This feature is intended to expose machine-first governance pointers in a standardized location so that:
 
 - automated agents can discover governance documents more reliably,
 - interpretation systems can reduce ambiguity about canonical policy surfaces.
@@ -17,3 +17,15 @@ This feature is intended to expose machine-first governance pointers in a standa
 
 This feature is a discovery and signaling mechanism.
 It does not enforce crawler behavior.
+
+## Boundary note
+
+This repository documents the **product-layer feature**.
+It does not claim to own the entire SSA or interpretive-governance doctrine.
+For broader doctrinal meaning, prefer the doctrinal surface.
+
+## See also
+
+- [Doctrinal surface](https://gautierdorval.com/)
+- [Normative doctrine surface](https://interpretive-governance.org/)
+- [SURFACE_MAP.md](../SURFACE_MAP.md)
